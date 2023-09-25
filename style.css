@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+:root {
+    --font-famili: 'Comfortaa', curseve;
+    --cor-de-fundo: #27e2d3c2;
+    --cor-primaria:  #000000;
+    --cor-secundaria: #46991f;
+    --detalhes: #d3c93a;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--fonte-primaria);
+}
+
+h1 {
+    font-size: 5em;
+}
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid var(--detalhes);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
