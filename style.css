@@ -2,10 +2,10 @@
 
 :root {
     --font-famili: 'Comfortaa', curseve;
-    --cor-de-fundo: #27e2d3c2;
+    --cor-de-fundo: #989999c2;
     --cor-primaria:  #000000;
-    --cor-secundaria: #46991f;
-    --detalhes: #d3c93a;
+    --cor-secundaria: #4ac4da;
+    --detalhes: #17cccc;
 }
 body{
     background-color: var(--cor-de-fundo);
@@ -34,7 +34,8 @@ h3 {
 }
 
 .box {
-    border: 2px solid var(--detalhes);
+    border: 4px double var(--detalhes);
+    box-shadow: var(--cor-secundaria) 2px 2px 25px;
     display: inline-block;
     font-size: 4em;
     padding: 10px;
